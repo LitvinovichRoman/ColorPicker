@@ -7,16 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6216D6CA2B2CE07000F931D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6216D6C62B2CE07000F931D2 /* ContentView.swift */; };
+		6216D6CB2B2CE07000F931D2 /* ColorSlidersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6216D6C72B2CE07000F931D2 /* ColorSlidersView.swift */; };
+		6216D6CC2B2CE07000F931D2 /* SetColorButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6216D6C82B2CE07000F931D2 /* SetColorButtonView.swift */; };
+		6216D6CD2B2CE07000F931D2 /* ResultColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6216D6C92B2CE07000F931D2 /* ResultColorView.swift */; };
+		6216D6D12B2CE2C400F931D2 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6216D6D02B2CE2C300F931D2 /* ColorView.swift */; };
+		6216D6D32B2CF23200F931D2 /* AnimationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6216D6D22B2CF23200F931D2 /* AnimationScreen.swift */; };
+		6216D6D92B2CFC0300F931D2 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 6216D6D82B2CFC0300F931D2 /* Lottie */; };
+		6216D6E12B2D066100F931D2 /* gear-loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 6216D6E02B2D066000F931D2 /* gear-loader.json */; };
 		62B076CF2B29F98E0033B0DB /* ColorPickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B076CE2B29F98E0033B0DB /* ColorPickerApp.swift */; };
-		62B076D12B29F98E0033B0DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B076D02B29F98E0033B0DB /* ContentView.swift */; };
 		62B076D32B29F9930033B0DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B076D22B29F9930033B0DB /* Assets.xcassets */; };
 		62B076D62B29F9930033B0DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B076D52B29F9930033B0DB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6216D6C62B2CE07000F931D2 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6216D6C72B2CE07000F931D2 /* ColorSlidersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSlidersView.swift; sourceTree = "<group>"; };
+		6216D6C82B2CE07000F931D2 /* SetColorButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetColorButtonView.swift; sourceTree = "<group>"; };
+		6216D6C92B2CE07000F931D2 /* ResultColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultColorView.swift; sourceTree = "<group>"; };
+		6216D6D02B2CE2C300F931D2 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		6216D6D22B2CF23200F931D2 /* AnimationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationScreen.swift; sourceTree = "<group>"; };
+		6216D6D42B2CFA1300F931D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6216D6E02B2D066000F931D2 /* gear-loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "gear-loader.json"; sourceTree = "<group>"; };
 		62B076CB2B29F98E0033B0DB /* ColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B076CE2B29F98E0033B0DB /* ColorPickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerApp.swift; sourceTree = "<group>"; };
-		62B076D02B29F98E0033B0DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		62B076D22B29F9930033B0DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62B076D52B29F9930033B0DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -26,12 +40,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6216D6D92B2CFC0300F931D2 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6216D6DF2B2D026100F931D2 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				6216D6E02B2D066000F931D2 /* gear-loader.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
 		62B076C22B29F98E0033B0DB = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +74,9 @@
 		62B076CD2B29F98E0033B0DB /* ColorPicker */ = {
 			isa = PBXGroup;
 			children = (
-				62B076CE2B29F98E0033B0DB /* ColorPickerApp.swift */,
-				62B076D02B29F98E0033B0DB /* ContentView.swift */,
+				6216D6D42B2CFA1300F931D2 /* Info.plist */,
+				62B076DF2B2A02B70033B0DB /* Application */,
+				62B076E02B2A02C80033B0DB /* Views */,
 				62B076D22B29F9930033B0DB /* Assets.xcassets */,
 				62B076D42B29F9930033B0DB /* Preview Content */,
 			);
@@ -65,6 +89,28 @@
 				62B076D52B29F9930033B0DB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		62B076DF2B2A02B70033B0DB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				62B076CE2B29F98E0033B0DB /* ColorPickerApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		62B076E02B2A02C80033B0DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6216D6C62B2CE07000F931D2 /* ContentView.swift */,
+				6216D6C92B2CE07000F931D2 /* ResultColorView.swift */,
+				6216D6C72B2CE07000F931D2 /* ColorSlidersView.swift */,
+				6216D6C82B2CE07000F931D2 /* SetColorButtonView.swift */,
+				6216D6D02B2CE2C300F931D2 /* ColorView.swift */,
+				6216D6D22B2CF23200F931D2 /* AnimationScreen.swift */,
+				6216D6DF2B2D026100F931D2 /* Lottie */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +129,9 @@
 			dependencies = (
 			);
 			name = ColorPicker;
+			packageProductDependencies = (
+				6216D6D82B2CFC0300F931D2 /* Lottie */,
+			);
 			productName = ColorPicker;
 			productReference = 62B076CB2B29F98E0033B0DB /* ColorPicker.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +160,9 @@
 				Base,
 			);
 			mainGroup = 62B076C22B29F98E0033B0DB;
+			packageReferences = (
+				6216D6D72B2CFC0300F931D2 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			productRefGroup = 62B076CC2B29F98E0033B0DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +179,7 @@
 			files = (
 				62B076D62B29F9930033B0DB /* Preview Assets.xcassets in Resources */,
 				62B076D32B29F9930033B0DB /* Assets.xcassets in Resources */,
+				6216D6E12B2D066100F931D2 /* gear-loader.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62B076D12B29F98E0033B0DB /* ContentView.swift in Sources */,
+				6216D6D12B2CE2C400F931D2 /* ColorView.swift in Sources */,
+				6216D6CB2B2CE07000F931D2 /* ColorSlidersView.swift in Sources */,
+				6216D6CC2B2CE07000F931D2 /* SetColorButtonView.swift in Sources */,
+				6216D6CA2B2CE07000F931D2 /* ContentView.swift in Sources */,
+				6216D6D32B2CF23200F931D2 /* AnimationScreen.swift in Sources */,
 				62B076CF2B29F98E0033B0DB /* ColorPickerApp.swift in Sources */,
+				6216D6CD2B2CE07000F931D2 /* ResultColorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +333,10 @@
 				DEVELOPMENT_TEAM = W2HCKKQTYD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ColorPicker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +361,10 @@
 				DEVELOPMENT_TEAM = W2HCKKQTYD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ColorPicker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +400,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6216D6D72B2CFC0300F931D2 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6216D6D82B2CFC0300F931D2 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6216D6D72B2CFC0300F931D2 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 62B076C32B29F98E0033B0DB /* Project object */;
 }
